@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="milestone" content="Portfolio">
+  <title>Kyra Lee Portfolio Project</title>
+  <!-- 
+			TODO: Add Bootstrap CSS link tag from: 
+      https://getbootstrap.com/
+		-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- 
+			TODO: Add Bootstrap Icons link tag from: 
+			https://icons.getbootstrap.com/
+			(Remember, the CDN link is towards the bottom of the page!)
+		-->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Custom styles (these can extend the default Bootstrap styles) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="scroll-top" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md fixed-top" style="background-color: #E4EAEB;">
+    <div class="container">
+      <a href="#home" class="navbar-brand">
+        <i class="bi bi-moon-stars-fill"></i></a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="nav-collapse" class="collapse navbar-collapse">
+        <div class="navbar-nav ms-auto">
+          <a href="#about-me" class="nav-link">About Me</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#contact" class="nav-link">Contact</a>
+          <a href="#travel" class="nav-link">Travel</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero section -->
+  <section id="hero-section">
+    <div id="home"></div>
+    <img class="profile-pic img-fluid border border-3" src="https://media.licdn.com/dms/image/D5603AQHY-N-JBet_dg/profile-displayphoto-shrink_400_400/0/1667778221197?e=1725494400&v=beta&t=aJSwsbj5vCWWwPlBJp9O5b9kwfQfwJ3CdN_jTQvsNFE" alt="headshot of Kyra">
+    <div class="container">
+      <h1 class="display-5 fw-semibold">Kyra Lee</h1>
+      <p class="lead">Psychology Major at The University of Texas at Austin</p>
+    </div>
+  </section>
+
+  <!-- Mission/Meet-me section -->
+  <section id="about-me-section" class="container-fluid container-lg">
+    <div id="about-me"></div>
+    <h2 class="mb-4">About Me</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4 text-center">
+        <img src="https://i.imgur.com/Te5XwzT.jpeg" alt="Kyra holding her cat.">
+      </div>
+      <div class="col-md-6 mb-4 d-flex align-items-center">
+        <!-- ty to https://www.cheeseipsum.co.uk/ -->
+        <p>I love cheese, especially cheddar monterey jack. Taleggio lancashire st. agur blue cheese swiss brie cut the
+          cheese goat parmesan. Manchego paneer blue castello cheesecake bocconcini hard cheese goat taleggio. St. agur
+          blue cheese cheese on toast fromage frais squirty cheese boursin croque monsieur mozzarella swiss. Cheesecake.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills section -->
+  <section id="skills-section">
+    <div id="skills"></div>
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="row">
+        <div class="text-center col-lg-3 col-md-6">
+          <img src="https://web.dev/static/articles/svg-mobile-fundamentals/image/html5-logo-6ec7f7dc66982.svg" alt="HTML logo">
+          <p>Structuring the web's content using modern semantic HTML.</p>
+        </div>
+        <div class="text-center col-lg-3 col-md-6">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS logo">
+          <p>Presenting beautiful web designs and interactions using modern CSS.</p>
+        </div>
+        <div class="text-center col-lg-3 col-md-6">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap logo">
+          <p>Rapidly developing responsive websites using the web's most popular framework.</p>
+        </div>
+        <div class="text-center col-lg-3 col-md-6">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/2101px-Adobe_Illustrator_CC_icon.svg.png" alt="Adobe Illustrator logo">
+          <p>Designing effective logos and user-friendly layouts with the Adobe Creative Suite.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact-section">
+    <div id="contact"></div>
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <a href="https://www.linkedin.com/in/kyrallee/" target="_blank">
+            <i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://instagram.com/kyrartist" target="_blank">
+            <i class="bi bi-instagram"></i></a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://www.behance.net/kyrartist" target="_blank">
+            <i class="bi bi-behance"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Travel section -->
+  <section id="travel-section">
+    <div id="travel"></div>
+    <div class="container">
+      <h2>My Trip to California</h2>
+      <div class="row">
+        <div class="col-12 col-lg-10 offset-lg-1">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/big-sur.jpg" class="d-block w-100 img-fluid" alt="My brother and I in Big Sur">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Big Sur</h5>
+                  <p>My brother and I dodging the ocean.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/yosemite.jpg" class="d-block w-100 img-fluid" alt="My brother and I sitting on a rock in Yosemite National Park">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Yosemite National Park</h5>
+                  <p>My brother and I admiring the mountains.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/alcatraz.jpg" class="d-block w-100 img-fluid" alt="My dad and I on Alcatraz island.">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Alcatraz Island</h5>
+                  <p>My dad and I on Alcatraz Island, which is surprisingly beautiful.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  <section id="footer-section">
+    <p>&copy; Kyra Lee 2024</p>
+  </section>
+
+  <!-- 
+  		TODO: Paste Bootstrap JavaScript script tag from:
+      https://getbootstrap.com/
+  	-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

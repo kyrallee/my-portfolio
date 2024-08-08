@@ -1,0 +1,111 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  color: #090C08;
+}
+
+#hero-section {
+  background: no-repeat center/cover url("https://images.unsplash.com/photo-1599148400620-8e1ff0bf28d8?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #F9F9F9;
+  margin-top: 3.5rem;
+}
+
+#hero-section h1 {
+   color: #E4EAEB;
+}
+
+.profile-pic {
+  border-radius: 100rem;
+  margin: 1rem;
+  width: clamp(12rem, 25vw, 15rem);
+  border-color: #F9F9F9;
+}
+
+section {
+  padding: 40px;
+}
+
+section#about-me-section {
+  background-color: #F9F9F9;
+}
+
+section#skills-section {
+  background-color: #E4EAEB;
+}
+
+section#contact-section {
+  background-color: #F9F9F9;
+}
+
+section#travel-section {
+  background-color: #E4EAEB;
+}
+
+#home {
+  position: relative;
+  top: -100px;
+}
+
+#about-me, 
+#skills,
+#contact,
+#travel {
+  position: relative;
+  top: -90px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#about-me-section img {
+  max-height: 350px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+}
+
+#skills-section img {
+  max-height: 100px;
+  object-fit: cover;
+  object-position: center;
+  margin: 20px 0;
+}
+
+#contact-section .bi {
+  color: #090C08;
+  font-size: 4rem;
+  transition-duration: 0.2s;
+}
+
+#contact-section .bi:hover {
+  color: #356f82;
+}
+
+.carousel-caption {
+  text-shadow: 1px 1px 2px black;
+}
+
+#footer-section {
+  background-color: #356f82;
+  width: 100%;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F9F9F9;
+}
+
+#footer-section p {
+  margin: 0;
+}
